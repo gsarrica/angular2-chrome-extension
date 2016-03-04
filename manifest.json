@@ -1,0 +1,28 @@
+{
+  "name": "TestAngular",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "testDescription",
+  "options_page": "index.html",
+  "background": {
+    "scripts": [
+    ]
+  },
+  "permissions": [
+    "background",
+    "notifications",
+    "storage",
+    "gcm",
+    "idle",
+    "tabs",
+    "https://android.googleapis.com/gcm/*"
+  ],
+  "browser_action": {
+    "default_title": "Autem"
+  },
+  "web_accessible_resources": [
+    "images/icon-38.png"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+
+}
