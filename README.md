@@ -9,3 +9,5 @@ npm start
 
 
 You need to at least run npm start once then you can load the unpacked chrome extension in chrome.
+
+The options page for the extension is rendered with Angular 2.
