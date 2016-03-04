@@ -1,8 +1,8 @@
 {
-  "name": "TestAngular",
+  "name": "TestAngular2",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "testDescription",
+  "description": "TestDescription",
   "options_page": "index.html",
   "background": {
     "scripts": [
@@ -10,15 +10,11 @@
   },
   "permissions": [
     "background",
-    "notifications",
-    "storage",
-    "gcm",
     "idle",
-    "tabs",
-    "https://android.googleapis.com/gcm/*"
+    "tabs"
   ],
   "browser_action": {
-    "default_title": "Autem"
+    "default_title": "TestAngular2"
   },
   "web_accessible_resources": [
     "images/icon-38.png"
